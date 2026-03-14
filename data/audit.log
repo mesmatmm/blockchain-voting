@@ -185,3 +185,6 @@
 [2026-03-14 07:33:25] [STARTUP] Blockchain loaded from E:\TestClaude\blockchain-voting\data\blockchain_5000.json (19 blocks)
 [2026-03-14 07:33:25] [STARTUP] Loaded 1 election contract(s)
 [2026-03-14 07:35:31] [VOTE] Election=election_2026 Candidate=Heba Mostafa Hash=28a40b347c5fb437...
+[2026-03-14 07:36:51] [STARTUP] Blockchain loaded from E:\TestClaude\blockchain-voting\data\blockchain_5000.json (19 blocks)
+[2026-03-14 07:36:51] [STARTUP] Loaded 1 election contract(s)
+[2026-03-14 07:37:31] [VOTE] Election=election_2026 Candidate=Ali Mahmoud Hash=c2153b393cb8d7dc...
