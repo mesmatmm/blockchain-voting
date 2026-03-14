@@ -1,0 +1,34 @@
+{
+  "length": 2,
+  "difficulty": 4,
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1773486567.6351216,
+      "transactions": [],
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": 0,
+      "merkle_root": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+      "hash": "6ab3f4fe50056541f66aafd491e205d9ae2ecb49545ed4425286e280ce1cb289",
+      "difficulty": 4
+    },
+    {
+      "index": 1,
+      "timestamp": 1773486749.0647366,
+      "transactions": [
+        {
+          "voter_id": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+          "candidate": "Alice Johnson",
+          "election_id": "election_2026",
+          "timestamp": 1773486655.0048943,
+          "vote_hash": "199364c1ea1b3680c3e1b518fe828991967d9c44f238eb8188383a9cd4f54dab"
+        }
+      ],
+      "previous_hash": "6ab3f4fe50056541f66aafd491e205d9ae2ecb49545ed4425286e280ce1cb289",
+      "nonce": 10432,
+      "merkle_root": "199364c1ea1b3680c3e1b518fe828991967d9c44f238eb8188383a9cd4f54dab",
+      "hash": "00009a988ca76119006eea312f97b2888880b88d60009442a26bd2707326938e",
+      "difficulty": 4
+    }
+  ]
+}

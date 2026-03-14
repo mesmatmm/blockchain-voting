@@ -1,0 +1,18 @@
+{
+  "election_2026": {
+    "candidates": [
+      "Alice Johnson",
+      "Bob Smith",
+      "Charlie Brown",
+      "Diana Prince"
+    ],
+    "election_id": "election_2026",
+    "start_time": 1773486567.6364257,
+    "end_time": 1773572967.6364195,
+    "min_age": 18,
+    "voted_count": 1,
+    "voted_hashes": [
+      "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    ]
+  }
+}

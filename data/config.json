@@ -1,0 +1,10 @@
+{
+  "default_port": 5000,
+  "difficulty": 4,
+  "auto_mine_interval": 60,
+  "default_election": {
+    "election_id": "election_2026",
+    "candidates": ["Mahmoud Esmat", "Heba Mostafa", "Ahmed Sabry", "Ali Mahmoud"],
+    "duration_hours": 24
+  }
+}
