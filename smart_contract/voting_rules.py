@@ -15,7 +15,9 @@ class VotingContract:
         """Returns (True, None) or (False, reason_string)"""
         hashed = hashlib.sha256(voter_id.encode()).hexdigest()
 
-        if hashed in self.voted_hashes:
+        # Block the normal case (plain voter_id) AND the case where someone
+        # submits an already-hashed voter_id directly (double-hash bypass attack).
+        if hashed in self.voted_hashes or voter_id in self.voted_hashes:
             return False, "You have already voted in this election."
 
         if candidate not in self.candidates:
